@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.titlecards {
+	margin-left: 11%;
+}
+
+.card {
+	margin-left: 5%;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cardbrand {
+	margin-left: 5%;	
+}
+
+.card1 {
+	margin-left: -0%;
+}
+
+.card-img-top {
+	max-width: 250px;
+}
+
+.card-title, .card-text, .card-price, .card-brand {
+	font-family: Poppins, sans-serif;
+	margin-left: 5%;
+	text-align: left;
+}
+
+.card-brand {
+	color: #727272;
+	margin-top: -7%;
+}
+
+.card-title {
+	margin-top: -6%;
+}
+
+.btnbuy {
+	width: 89%;
+	font-family: Poppins, sans-serif;
+	color: #000;	
+	background-color: #FFD100;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 5%;	
+	cursor: pointer;	
+}
+
+.card1, .card2, .card3, .card4 {
+	display: inline-block;
+}
+
+.div-img-mag {
+	z-index: 1;
+}
+
+.div-content-mag {
+	z-index: 2;
+	margin-top: -13%;
+	padding-bottom: 5%;
+}
+
+.textmag {
+	font-family: Poppins, sans-serif;
+	color: #FFF;
+	font-size: 40px;
+}
+
+.btnmag {
+	width: 10%;
+	font-family: Poppins, sans-serif;
+	font-size: 20px;
+	color: #FFD100;	
+	background-color: transparent;
+	border: 2px solid #FFD100;
+	border-radius: 5px;
+	margin-bottom: 5%;	
+	cursor: pointer;	
+}

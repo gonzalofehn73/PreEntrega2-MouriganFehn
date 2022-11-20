@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body {
+	font-family: Poppins, sans-serif;
+}
+
+.div-img-mag {
+	z-index: 1;
+}
+
+.div-content-mag {
+	z-index: 2;
+	margin-top: -13%;
+	padding-bottom: 10%;
+}
+
+.textmag {
+	color: #FFF;
+	font-size: 40px;
+}
+
+.infolocal {
+	width: 20%;
+	float: left;
+	margin-left: 30%;
+}
+
+.contacto {
+	width: 20%;
+	float: right;
+	margin-right: 25%;
+}
+
+input {
+	width: 80%;	
+	height: 30px;
+	border: 1px solid #CDCDCD;
+}
+
+.btnenviar {
+	background-color: #000;
+	color: #fff;
+	width: 82%;
+	height: 30px;
+	margin-top: 6%;
+	cursor: pointer;
+}
+
+h6 {
+	margin-bottom: -1px;
+}
+
+.inputgrande {
+	height: 60px;
+}

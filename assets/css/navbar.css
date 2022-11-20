@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body {
+	overflow-x: hidden;
+}
+
+header {  
+	background-color: #212529;  
+	position: fixed;  
+	left: 0;  
+	right: 0;  	
+	height: 40px;  
+	display: flex;  
+	align-items: center;  	
+	margin-top: -8px;
+}  
+
+header * {  
+	display: inline;  
+}  
+
+header li {  
+	margin: 20px;  
+}  
